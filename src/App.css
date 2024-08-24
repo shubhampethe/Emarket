@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Light";   /*Can be any text*/
+    src: local("OMEGLE"),
+      url("src/font/OMEGLE.ttf") format("truetype");
+  }
+
+*{
+    font-family: light;
+}
