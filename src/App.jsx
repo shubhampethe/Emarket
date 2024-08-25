@@ -117,20 +117,4 @@ export const ProtectedRoutesForAdmin= ({ children }) => {
   return children;
 };
 
-
-
-
-// export const ProtectedRoutesForAdmin = ({ children }) => {
-//   const admin = JSON.parse(localStorage.getItem('user'));
-//   console.log(admin.user.email);
-
-//   if (admin.user.email === 'shubhamspethe@coep.sveri.ac.in') {
-//     // Render the content for admin.
-//     return <>{children}</>;
-//   } else {
-//     // Redirect to the login page if not an admin.
-//     return <Navigate to={'/login'}/>
-//   }
-// };
-
 export default App;

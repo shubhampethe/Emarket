@@ -33,14 +33,14 @@ class Hero extends Component {
           <Carousel.Item>
             <img
               alt="..."
-              src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
+              src="src/assets/firse.jpg"
               className="w-[1000px] h-[400px]"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               alt="..."
-              src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
+              src="src/assets/three.jpg"
               className="w-[1000px] h-[400px]"
             />
           </Carousel.Item>

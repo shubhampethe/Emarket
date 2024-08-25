@@ -92,7 +92,7 @@ function Cart() {
         // deleteDoc(doc(fireDB, 'Cart'+user.uid,cartProuct.ID))
       }
     })
-    toast.success('delete g cart');
+    toast.success('deleting cart');
   }
 
   // useEffect(() => {
